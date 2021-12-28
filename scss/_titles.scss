@@ -11,6 +11,21 @@ h1 {
   color: $white;
   #typewriter {
     font-family: "Poppins", sans-serif;
+    &:after {
+      content: "";
+      border-right: 5px solid white;
+      height: 2rem;
+      width: 2rem;
+      animation: blink 1s infinite ease;
+    }
+    @keyframes blink {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
   }
 }
 

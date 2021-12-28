@@ -1,5 +1,5 @@
 const textoAparecendo = document.getElementById("typewriter");
-const frases = ["experiências web.", "designs incríveis.", "código limpo."];
+const frases = ["experiências web.", "designs pxl-perfect.", "código moderno."];
 
 let i = 0;
 let j = 0;
@@ -37,7 +37,7 @@ function loop() {
       }
     }
   }
-  const velocidadeAcelerada = Math.random() * (140 - 120);
+  const velocidadeAcelerada = Math.random() * (160 - 140);
   const velocidadeNormal = Math.random() * (180 - 120) + 100;
   const tempo = fimDaFrase
     ? 2000
