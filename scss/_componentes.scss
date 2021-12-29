@@ -5,6 +5,35 @@
   background-color: $grey-3;
   padding: 1rem 2rem;
   border-radius: 5px;
+  transition: ease-out 0.3s;
+  &.github {
+    &:hover {
+      color: #1d8c50;
+      background-color: #d7ffdd;
+      transition: all 0.3s;
+    }
+  }
+  &.linkedin {
+    &:hover {
+      color: #2862b9;
+      background-color: #c6dfff;
+      transition: all 0.3s;
+    }
+  }
+  &.CV {
+    &:hover {
+      color: #ac2222;
+      background-color: #ffe1e1;
+      transition: all 0.3s;
+    }
+  }
+  &.email {
+    &:hover {
+      color: #8463e2;
+      background-color: #eaeaff;
+      transition: all 0.3s;
+    }
+  }
 }
 
 .card-portfolio {
@@ -15,6 +44,13 @@
     background: linear-gradient(220.83deg, #f65fc0 -179.65%, #8031a7 17.04%);
     border-radius: 10px 10px 0 0;
     @include flex(row, center, center);
+    overflow: hidden;
+    img {
+      transition: transform 0.3s;
+      &:hover {
+        transform: scale(1.025);
+      }
+    }
   }
   .text {
     padding: 3.2rem;
