@@ -62,8 +62,14 @@ body {
       &:not(:last-child) {
         margin-bottom: 3rem;
       }
+      .image.c6 {
+        background: linear-gradient(122.76deg, #44464f 15.62%, #2f3038 77.69%);
+      }
       .image.neon {
         background: linear-gradient(83.57deg, #0c85bc -1.18%, #00d7d7 97.61%);
+      }
+      .image.site2022 {
+        background: linear-gradient(170.27deg, #ffb198 39.81%, #f47169 123.02%);
       }
     }
     .copyright {
