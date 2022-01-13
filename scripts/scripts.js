@@ -1,5 +1,5 @@
 const textoAparecendo = document.getElementById("typewriter");
-const frases = ["experiências web.", "colaborativamente", "código limpo."];
+const frases = ["experiências web.", "colaborativamente.", "código legível."];
 
 let i = 0;
 let j = 0;

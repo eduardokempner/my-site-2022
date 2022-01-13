@@ -1,4 +1,4 @@
-.btn-contato {
+.btn__contato {
   font-size: 18px;
   line-height: 22px;
   color: $grey-1;
@@ -6,28 +6,28 @@
   padding: 1rem 2rem;
   border-radius: 5px;
   transition: ease-out 0.3s;
-  &.github {
+  &--github {
     &:hover {
       color: #1d8c50;
       background-color: #d7ffdd;
       transition: all 0.3s;
     }
   }
-  &.linkedin {
+  &--linkedin {
     &:hover {
       color: #2862b9;
       background-color: #c6dfff;
       transition: all 0.3s;
     }
   }
-  &.CV {
+  &--CV {
     &:hover {
       color: #ac2222;
       background-color: #ffe1e1;
       transition: all 0.3s;
     }
   }
-  &.email {
+  &--email {
     &:hover {
       color: #8463e2;
       background-color: #eaeaff;
@@ -36,11 +36,11 @@
   }
 }
 
-.card-portfolio {
+.projects__card {
   max-width: 566px;
   border-radius: 10px;
   background-color: $grey-3;
-  .image {
+  .card__image {
     display: block;
     background: linear-gradient(220.83deg, #f65fc0 -179.65%, #8031a7 17.04%);
     border-radius: 10px 10px 0 0;
@@ -57,9 +57,9 @@
       transition: transform 0.3s;
     }
   }
-  .text {
+  .card__text {
     padding: 3.2rem;
-    .text-icon {
+    .text__icon {
       display: flex;
       align-items: center;
       margin-bottom: 1.2rem;
