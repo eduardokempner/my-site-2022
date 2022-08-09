@@ -43,13 +43,9 @@ body {
       }
     }
     .about__btns {
-      max-width: 30.5rem;
       a {
-        &:not(:nth-last-child(-n + 2)) {
+        &:not(:nth-last-child(-n + 1)) {
           margin-right: 1.6rem;
-        }
-        &:last-child {
-          margin-top: 1.6rem;
         }
       }
     }
@@ -107,11 +103,8 @@ body {
       .about__btns {
         a {
           font-size: 1.6rem;
-          &:not(:nth-last-child(-n + 2)) {
+          &:not(:nth-last-child(-n + 1)) {
             margin-right: 1.2rem;
-          }
-          &:last-child {
-            margin-top: 1.2rem;
           }
         }
       }
@@ -166,8 +159,10 @@ body {
       margin-top: 6rem;
     }
   }
+
   @include responsive(480px) {
     padding-top: 4.8rem;
+
     .about {
       .about__hire {
         &:after {
@@ -184,6 +179,12 @@ body {
         font-size: 1.6rem;
         line-height: 1.9rem;
         max-width: 38.9rem;
+      }
+      .about__btns {
+        max-width: 40rem;
+      .btn__contato--email {
+        margin-top: 1.2rem;
+      }
       }
     }
     .projects {
